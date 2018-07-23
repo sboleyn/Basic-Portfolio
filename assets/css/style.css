@@ -35,11 +35,11 @@ body{
     /* border-style: outset; */
 }
 
-/* #navDiv{
-    width: 75%;
-    height: auto;
-    margin: auto;
-} */
+#navDiv{
+    width: 100%;
+    /* margin: auto; */
+    background-color: #f4faff;
+}
 
 #mainContent{
     width: 960px;
@@ -47,8 +47,9 @@ body{
 }
 
 header{
-    width: 50%;
+    /* width: 50%; */
     float: left;
+    background-color: #7CC6FE;
 }
 
 h1{
@@ -63,11 +64,14 @@ h1, h2, h3, h4, h5, h6{
 
 a{
     text-decoration: none;
+    padding: 10px;
 }
 
 nav{
-    float: left;
-    width: 50%;
+    height: 67px;
+    width: 960px;
+    background-color: #f4faff;
+    margin: auto;  
 }
 
 ul{
@@ -80,7 +84,7 @@ li{
 }
   
 
-.clearfix::after {
+.clearfix::after{
     content:""; 
     display: block;
     clear: both;
