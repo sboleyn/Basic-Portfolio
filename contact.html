@@ -14,8 +14,6 @@
             <header>
                 <h1>Samantha Boleyn</h1>
             </header>
-        
-
 
             <ul>
                 <li><a href="index.html">About</a></li>
@@ -26,21 +24,23 @@
     </div>
 
     <div id="mainContent">
-        <h2>Contact</h2>
+        <h2 id="mainContentHead">Contact</h2>
 
         <hr/>
 
-        <form>
-            Name:<br/>
-            <input type="text" name="name">
+        <form class="contactForm">
+            <p class="formField"><mark class="pinkHighlite">Name:</mark></p>
+            <input type="text" name="name" class="fullWidthInput">
             <br/>
-            Email:<br/>
-            <input type="text" name="email"/>
+            <p class="formField"><mark class="pinkHighlite">Email:</mark></p>
+            <input type="text" name="email" class="fullWidthInput"/>
             <br/>
-            Message:<br/>
-            <input type="text" name="message"/>
+            <p class="formField"><mark class="pinkHighlite">Message:</mark></p>
+            <input type="text" name="message" class="fullWidthInput bigTextBox"/>
             <br/>
-            <input type="submit" value="Submit"/>
+
+                <input type="submit" value="Submit" class="button"/>
+
         </form>
     </div>
 
