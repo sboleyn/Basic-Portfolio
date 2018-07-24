@@ -25,41 +25,49 @@ For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
 For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */
 
 html{
-    height:100%;
-    background-image: url("../images/background2.png");
+    /* height: 100%; */
+    /* background-image: url(../images/abstract.jpg); */
+    /* background-image: radial-gradient(circle, #7cc6fe, #adceff, #d0d9ff, #e9e5ff, #faf4ff); */
+    background-image: url(../images/hello_background3.jpg);
 }
 
 body{
-    /* 
-     */
-    /* border-style: outset; */
+    margin: 0px;
+    /* height: auto; */
 }
 
 #navDiv{
     width: 100%;
-    /* margin: auto; */
-    background-color: #f4faff;
+    height: 100px;
+    background-color: rgba(8, 9, 10, 0.638);
 }
 
 #mainContent{
     width: 960px;
     margin: auto;
+    background-color: #f4faff;
+    /* background-image: url(../images/hello_background.jpg); */
+    /* background-image: linear-gradient(to top, #f4faff, #e0d7ee, #c5bcde, #a7a2cf, #8789c0); */
+    background: rgba(135,137,192, 0.5)
 }
 
 header{
-    /* width: 50%; */
     float: left;
-    background-color: #7CC6FE;
+    padding: 16.5px;
+    background-color: rgb(124,198,254, 0.9);
 }
 
 h1{
-    /* color: #7CC6FE; */
-    /* float: left;
-    width: 50%;  */
+    color: #f4faff;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+hr{
+    width: 95%;
+    margin: auto;
 }
 
 a{
@@ -68,24 +76,52 @@ a{
 }
 
 nav{
-    height: 67px;
     width: 960px;
-    background-color: #f4faff;
+    /* background-color: #f4faff; */
+    background-color:#08090A; 
     margin: auto;  
 }
 
 ul{
+    margin: 0px;
+    padding: 40px;
     list-style-type: none;
     float: right;
   }
 
 li{
     display: inline;
+    font-size: 20px;
 }
-  
+
+#profile_image{
+    float: left;
+    border: 5px solid #8789C0;
+    border-radius: 25px;
+    /* padding: 5px; */
+    /* width: 150px; */
+}
+
+#mainTextDiv{
+    /* float: left; */
+    font-size: 24px;
+    color: #F4FAFF;
+}  
+
+#introLineText{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.mainText{
+    /* color:#5DFDCB ; */
+    /* color: #08090A; */
+    background-color: rgb(124,198,254, 0.7);
+}
 
 .clearfix::after{
     content:""; 
     display: block;
     clear: both;
 } 
+
+
