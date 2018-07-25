@@ -25,7 +25,8 @@ For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
 For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;. */
 
 html{
-    background: transparent url(../images/hello_background3.jpg) no-repeat;
+    background: url(../images/hello_background3.jpg);
+    background-size: cover;
     margin: 0px;
     /* height: auto;*/
 } 
