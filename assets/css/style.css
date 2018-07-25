@@ -66,7 +66,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    /* margin-bottom: 50px; */
+    /* height: 500px; */
     background: rgba(135,137,192, 0.7);
 }
 
@@ -256,3 +256,4 @@ html, body {
 .imageBanner{
     width: 100%;
 }
+
