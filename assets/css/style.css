@@ -245,7 +245,7 @@ html, body {
 
 .absolute{
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     text-align: center;
     padding: 10px 0;
     background-color: rgb(236,151,193,0.7);
