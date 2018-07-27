@@ -147,7 +147,7 @@ footer {
 }
 
 .bigTextBox{
-    padding: 100px;
+    min-height: 200px;
     box-sizing: border-box;
     margin-bottom: 10px;
 }
