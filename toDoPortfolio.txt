@@ -1,10 +1,7 @@
 fix contact form big box doesn't work when typing
 
-add padding to header text samantha boleyn
-fix background- add container
-add padding to contact form under submit button
-find another photo for arrow game and survey
 add status to links- default, active, hover, and focus
+
 bootstrap for form
 
 CHECK SPECS
