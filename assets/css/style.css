@@ -1,33 +1,28 @@
+/* Set so that footer can be pushed */
 html, body {
     height: 100%;
     margin: 0;
   }
 
+/*This wrapper is used to set the viewport heigh on the main content area (wrapper box) so that the footer can be pushed to the bottom  */
+
 .wrapper {
     min-height: 100vh;
 }
+
+/* Set so that footer can be pushed */
 
 footer, .push {
     height: 40px;
   } 
 
+  /* Surrounds all content to set background image */
 .container{
     background: url(../images/hello_background3.jpg);
     background-size: cover;
 }
 
-header{
-    float: left;
-    padding: 0px 15px;
-    background-color:  rgb(236,151,193, 0.9);
-    /* font-size: 18.5px; */
-    color: #f4faff;
-    border-style: outset;
-    border-width: 0px 5px 5px 0px;
-    padding-top: 5px;
-    border-radius: 0px 0px 10px 10px;
-    border-color:  rgba(233, 169, 201, 0.5);
-}
+/* Nav Div is the color banner that stretches across the whole top of hte page */
 
 #navDiv{
     width: 100%;
@@ -39,24 +34,36 @@ header{
     border-color: rgba(8, 9, 10, 0.274);
 }
 
+/* #Nav is the smaller area inside Nav Div with width 960px */
 nav{
     width: 960px;
     background-color:#08090A; 
     margin: auto;  
 }
 
+/* Header area contains the logo */
+
+header{
+    float: left;
+    padding: 0px 15px;
+    background-color:  rgb(236,151,193, 0.9);
+    color: #f4faff;
+    border-style: outset;
+    border-width: 0px 5px 5px 0px;
+    padding-top: 5px;
+    border-radius: 0px 0px 10px 10px;
+    border-color:  rgba(233, 169, 201, 0.5);
+}
+
+/* Div that surrounds main content, used to set background on main content area */
+
 #mainContent{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    /* background-color: rgb(236,151,193,0.45); */
     background-color: rgb(8,9,10, 0.7)
 }
-/* h1{
-    font-family: 'Asap', sans-serif;
-    
-} */
 
 h2{
     font-size: 42px;
@@ -93,16 +100,14 @@ li{
     font-size: 20px;
 }
 
+/* Select all list items except last child */
 li:not(:last-child){
     border-right:solid 1px #f4faff;
 }
 
-
-
 #profile_image{
     border: 1px solid #F4FAFF;
     border-radius: 50px;
-    /* width: 20%; */
     float: left;
     margin: 0px 20px 10px 10px;
     width: 145px;
@@ -116,6 +121,8 @@ li:not(:last-child){
     font-weight: 600;
 }  
 
+/* Intro line text is Hi, I'm a web developer. */
+
 #introLineText{
     font-family: 'Asap', sans-serif;
     /* background-color: rgb(236,151,193,0.7);  */
@@ -124,10 +131,11 @@ li:not(:last-child){
     font-style: imageddditalic;
 }
 
+/* Describes the main content area */
+
 #mainContentHead{
     padding: 30px 0px 3px 30px;
     margin: 0px;
-    /* size: 12px; */
     color: #F4FAFF;
 }
 
@@ -149,16 +157,11 @@ footer {
     width: 100%;
 }
 
+/* Used on the contact form to stretch input full length of div */
 .fullWidthInput{
     width: 95%;
     margin-left: 23px;
     background-color: #f4faff;
-}
-
-.bigTextBox{
-    /* min-height: 200px;
-    box-sizing: border-box; */
-    margin-bottom: 10px;
 }
 
 form {
@@ -168,19 +171,28 @@ form {
     margin: auto;
 }
 
+/* Change contact form input describer text */
+
 .contactForm mark{
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
     padding: 2px;
 }
 
+/* Style button for contact form */
+
 .button {
     background-color: white; 
     color: black; 
     border: 2px solid  rgb(124,198,254);
     padding: 10px;
-    margin: 10px 0px 30px 0px;;
+    margin: 10px 0px 30px 0px;
+    border-radius: 10px;
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
 }
+
+/* Hover state of button for contact form */
 
 .button:hover {
     background-color: rgb(124,198,254);
@@ -195,9 +207,6 @@ form {
 .myWorkImg{
     width: 293px;
     height: 195px;
-    /* margin-left: 20px;
-    margin-top: 10px; */
-    /* position: relative; */
 }
 
 .clearfix::after{
@@ -221,6 +230,8 @@ form {
     margin-left: 20px;
     margin-top: 10px;
 }
+
+/* Used to position banners on portfolio images */
 
 .absolute{
     position: absolute;
@@ -248,12 +259,6 @@ form {
 div.relative:last-child{
     margin-bottom: 30px;
 } 
-
-.button{
-    border-radius: 10px;
-    font-family: 'Asap', sans-serif;
-    font-size: 15px;
-}
 
 .formField mark {
     border-radius: 3px;
