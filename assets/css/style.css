@@ -252,6 +252,10 @@ form {
     padding: 0px;
 }
 
+.portfolioImgLink:active{
+    color: black;
+}
+
 #arrowGameBackground{
     background-color: #6dd4c7;
 }
