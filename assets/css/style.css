@@ -276,3 +276,8 @@ div.relative:last-child{
 .formField mark {
     border-radius: 3px;
 }
+
+.navLink:hover{
+    background-color: rgba(124,198,254,0.95);
+}
+
