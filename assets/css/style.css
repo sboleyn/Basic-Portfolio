@@ -94,6 +94,23 @@ a{
     font-family: 'PT Sans', sans-serif;
 }
 
+a.bodyLink{
+    text-decoration: underline;
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #08090A;
+}
+
+a.bodyLink:hover{
+    text-decoration: none;
+    background-color: rgba(124,198,254,0.95);
+}
+
+a.bodyLink:active{
+    background-color: rgba(8, 9, 10, 0.274);
+}
+
 ul{
     margin: 0px;
     padding: 47px 0px 0px 47px;
